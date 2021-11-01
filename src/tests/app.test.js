@@ -1,5 +1,5 @@
 const supertest = require('supertest')
-const app = require('./app')
+const app = require('../codes/app')
 
 test('Get /aplicarDesconto/10/5', async() => {
     const response = await supertest(app)

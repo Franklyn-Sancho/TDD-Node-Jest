@@ -1,4 +1,4 @@
-const repository = require('./clientRepository')
+const repository = require('..codes/clientRepository')
 
 jest.mock('./cliente', () => {
     return require('./clientMock')
